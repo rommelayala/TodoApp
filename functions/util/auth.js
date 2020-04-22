@@ -26,4 +26,4 @@ module.exports = (request, response, next) => {
 			console.error('Error while verifying token', err);
 			return response.status(403).json(err);
 		});
-};git add 
+};
